@@ -29,7 +29,6 @@
     </tr>
 
     <%
-
         List<Student> studentList = student.getAll();
         for (Student s :
                 studentList) {
@@ -48,7 +47,6 @@
             <%=s.getBranch()%>
         </td>
     </tr>
-
     <%
         }
     %>
